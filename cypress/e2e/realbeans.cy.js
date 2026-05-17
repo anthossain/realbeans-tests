@@ -1,6 +1,7 @@
 const STORE_URL = 'https://r1065961-realbeans.myshopify.com'
 const STORE_PASSWORD = 'lawdea'
 
+
 const enterPassword = () => {
   cy.visit(STORE_URL)
   cy.get('body').then(($body) => {
